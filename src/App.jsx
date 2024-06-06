@@ -1,6 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Index from "./pages/Index.jsx";
 import Catalogue from "./pages/Catalogue.jsx";
+import Credits from "./pages/Credits.jsx";
 import Navbar from "./components/Navbar.jsx";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Index />} />
         <Route exact path="/catalogue" element={<Catalogue />} />
+        <Route exact path="/credits" element={<Credits />} />
       </Routes>
     </Router>
   );
