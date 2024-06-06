@@ -8,6 +8,7 @@ const Navbar = () => (
       <Flex>
         <Link as={RouterLink} to="/" color="white" mx={2}>Home</Link>
         <Link as={RouterLink} to="/catalogue" color="white" mx={2}>Catalogue</Link>
+        <Link as={RouterLink} to="/credits" color="white" mx={2}>Credits</Link>
       </Flex>
     </Flex>
   </Box>
