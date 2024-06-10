@@ -9,7 +9,7 @@ const characters = [
 
 const Catalogue = () => (
   <Box p={4}>
-    <Heading as="h2" size="xl" mb={6} textAlign="center">Popular Characters</Heading>
+    <Heading as="h2" size="xl" mb={6} textAlign="center" color="green.700">Popular Characters</Heading>
     <SimpleGrid columns={[1, 2, 2, 4]} spacing={10}>
       {characters.map((character) => (
         <Box key={character.name} textAlign="center">
